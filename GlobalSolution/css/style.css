@@ -1,4 +1,8 @@
-/* RESET */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -43,76 +47,200 @@ table {
 	border-spacing: 0;
 }
 
-/* Geral */
-body{
+/*GERAL*/
+
+* {
+    box-sizing: border-box;
+    font-family: Poppins, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
     background-color: #2B2B2E;
     font-family: Arial, sans-serif;
 }
 
-/* Header */
-header{
+h1{
+    color: #fff;
+    font-size: 30px;
+    line-height: 36px;
+}
+    
+h2{
+    color: #fff;
+    font-size: 24px; 
+    line-height: 22px; 
+}
+
+h3{ 
+    color: #fff;
+    font-size: 20px; 
+    line-height: 14px; 
+}
+
+p{ 
+    color: #C1C1C1;
+    font-size: 18px;
+    line-height: 24px; 
+}
+
+/* HEADER */
+header {
     padding: 10px 4%;   
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2B2B2E; 
+    z-index: 999;
+    border-bottom: 3px solid #00FF44;
 }
 
-button{
-    background-color: #ffffff00;
+.btnFaleConosco button {
+    background-color: transparent;
     border: 2px solid #00FF44;
-    width: 100px;
-    color: #00FF44;
-    height: 40px;
     border-radius: 18px;
-    font-size: 12px;
+    color: #00FF44;
+    padding: 8px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btnFaleConosco button:hover {
+    background-color: #00FF44;
+    color: #2B2B2E;
+}
+
+#wrapper {
+    padding-top: 80px;
+    text-align: center;
 }
 
 /* Menu hamburguer */
-.menu-hamburguer{
-    margin-top: 10px;
-}
-
-.menu-hamburguer img{
-    width: 27px;
-}
-
 .barra-opcoes {
-    width: 150px;
-    display: none; /* Inicialmente escondido */
-    background-color: #ffffff00;
-    padding: 10px;
-    border: 1px solid #ccc;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -100%; /* Começa fora da tela */
+    background-color: #2B2B2E;
+    padding: 20px;
+    transition: 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+.barra-opcoes.active {
+    left: 0; /* Quando ativo, move para posição visível */
 }
 
 .barra-opcoes ul {
-    list-style-type: none;
-    padding: 0;
+    margin-top: 60px;
 }
 
 .barra-opcoes li {
-    padding: 8px 0;
+    padding: 15px 0;
+    border-bottom: 1px solid #444;
 }
 
-.menu_item{
+.menu_item {
     text-decoration: none;
     color: azure;
+    font-size: 16px;
+    transition: color 0.2s;
 }
 
-/*Corpo do site*/
+.menu_item:hover {
+    color: #00FF44;
+}
 
-#wrapper{
-    border-top: 3px solid #00FF44;
-    padding-top: 40px;
+/* Ajuste no menu-hamburguer */
+.menu-hamburguer {
+    margin-top: 10px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1001;
+}
+
+.menu-hamburguer img{
+    width: 25px;
+}
+
+/*CORPO DO SITE*/
+.imgCarro img, .imgCarroVerde img{
+    margin-top: 30px;
+    width: 320px;
+}
+
+section {
+    margin-bottom: 80px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/*SECTION 1*/
+#section1{
+    margin-top: 50px;
+}
+.texto{
+    text-align: left;
+    letter-spacing: -.0042em;
+}
+
+.btnOrcamento {
+    margin-top: 15px;
+}
+
+.btnOrcamento button {
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
     text-align: center;
-}   
-
-.txtInicial{
-    
+    cursor: pointer;
+    transition: transform 0.3s ease;
 }
 
-h1{
-
+.btnOrcamento button:hover {
+    transform: scale(1.1);
 }
 
-#section1 img{
-    width: 300px;
+/*SECTION 2*/
+#section2 h2{
+    margin-top: 50px;
+}
+
+/*SECTION 3*/
+#section3 h1{
+    margin-bottom: 45px;
+}
+
+.beneficio h2{
+    margin-top: 35px;
+    padding: 10px 10px 15px 0;
+    border-bottom: 1px solid #c1c1c1c9;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    margin-top: 50px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
 }
