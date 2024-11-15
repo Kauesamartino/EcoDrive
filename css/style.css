@@ -114,6 +114,8 @@ header {
 
 #wrapper {
     padding-top: 80px;
+				margin-left: 30px;
+				margin-right: 30px;
     text-align: center;
 }
 
@@ -174,8 +176,6 @@ header {
 
 section {
     margin-bottom: 80px;
-    margin-left: 30px;
-    margin-right: 30px;
 }
 
 /*SECTION 1*/
