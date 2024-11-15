@@ -1,32 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Pagina principal</title>
 </head>
+
 <body>
-    <div id="wrapper"> 
-        <header>
-            <nav class="menu_hamburguer">
-                <input type="checkbox" id="menu_toggle">
-                <label for="menu_toggle" class="menu_btn"><span></span></label>
-                <ul class="menu_box">
-                    <li><a href="#" class="menu_item">Produtos</a></li>
-                    <li><a href="#" class="menu_item">Quem Somos</a></li>
-                    <li><a href="#" class="menu_item">Equipe</a></li>
-                    <li><a href="#" class="menu_item">Contato</a></li>
-                </ul>
-            </nav>
-        </header>
+    <header>
+        <div class="menu-hamburguer" onclick="toggleMenu()">
+            <img src="imgs/Aborgue.png" alt=""> <!-- Símbolo do hambúrguer -->
+        </div>
+        <div class="barra-opcoes" id="barraOpcoes">
+            <ul>
+                <li><a href="#" class="menu_item">Produtos</a></li>
+                <li><a href="#" class="menu_item">Quem Somos</a></li>
+                <li><a href="#" class="menu_item">Equipe</a></li>
+                <li><a href="#" class="menu_item">Contato</a></li>
+            </ul>
+        </div>
+        <button>Fale conosco</button>
+    </header>
 
-        <main>
+    <main id="wrapper">
+        <section id="section1">
+            <div class="txtInicial">
+                <h1></h1>
+                <p></p>
+            </div>
+            <img src="imgs/Carro.png" alt="">
+        </section>
+    </main>
 
-        </main>
+    <footer>
 
-        <footer>
-
-        </footer>
-    </div>
+    </footer>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
