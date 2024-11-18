@@ -76,6 +76,7 @@
         margin-top: 60px;
         display: flex;
         justify-content: space-around;
+        gap: 49px;
     }
 
     #txtCreditoCarbono{
@@ -98,12 +99,16 @@
         width: 370px;
     }
 
+    .beneficio h3{
+        border-bottom: 3px solid #c1c1c1c9;
+    }
+
     #section3{
         margin-top: 249px;
     }
 
     #section3 h2{
-        font-size: 48px;
+        font-size: 58px;
         margin-bottom: 0;
     }
 
