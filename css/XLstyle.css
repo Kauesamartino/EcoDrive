@@ -102,9 +102,12 @@
         margin-top: 249px;
     }
 
-    #section3 h2, #section3 h3{
-        line-height: 50px;
+    #section3 h2{
+        font-size: 48px;
+        margin-bottom: 0;
     }
 
-
+    #section3 h2, #section3 h3{
+        line-height: 45px;
+    }
 }
