@@ -1,0 +1,110 @@
+@media (min-width: 1280px){
+    /* Geral */
+    header{
+        padding: 15px 4%;
+    }
+
+    a .btnFaleConosco{
+        padding: 8px 25px;
+    }
+
+    #wrapper{
+        margin-top: 80px;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    h1{
+        font-size: 54px;
+        line-height: 64px;
+    }
+
+    h2{
+        font-size: 46px;
+        line-height: 34px;
+    }
+
+    h3{
+        font-size: 42px;
+    }
+    
+    p{
+        font-size: 24px;
+        line-height: 34px;
+        letter-spacing: 9%;
+    }
+
+    /*Menu Hamburguer*/
+    .barra-opcoes{
+        width: 20%;
+        left: -20%;
+    }
+
+    .menu-hamburguer{
+        margin-top: 8px;
+    }
+
+    .menu-hamburguer img{
+        width: 27px;
+    }
+
+    /* Homepage */
+    .imgCarro img{
+        margin-top: 30px;
+        width: 100%;
+        max-width: 679px;
+    }
+
+    #section1{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 200px;
+        margin-bottom: 0;
+    }
+
+    #txtInicial{
+        margin-top: 50px;
+        width: 507px;
+    }
+
+    #section2{
+        margin-top: 265px;
+    }
+
+    #creditoCarbono{
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #txtCreditoCarbono{
+        margin-top: 50px;
+        width: 534px;
+    }
+
+    .imgCarroVerde img{
+        margin-top: 0;
+        max-width: 640px;
+    }
+
+    #beneficios{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .beneficio{
+        margin-top: 69px;
+        width: 370px;
+    }
+
+    #section3{
+        margin-top: 249px;
+    }
+
+    #section3 h2, #section3 h3{
+        line-height: 50px;
+    }
+
+
+}

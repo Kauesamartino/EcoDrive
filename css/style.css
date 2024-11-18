@@ -67,13 +67,13 @@ h1{
     
 h2{
     color: #fff;
-    font-size: 24px; 
+    font-size: 28px; 
     line-height: 22px; 
 }
 
 h3{ 
     color: #fff;
-    font-size: 20px; 
+    font-size: 22px; 
     line-height: 14px; 
 }
 
@@ -81,10 +81,6 @@ p{
     color: #C1C1C1;
     font-size: 18px;
     line-height: 24px; 
-}
-
-body{
-    padding-bottom: 70px;
 }
 
 /* HEADER */
@@ -161,7 +157,6 @@ a .btnFaleConosco {
     color: #00FF44;
 }
 
-/* Ajuste no menu-hamburguer */
 .menu-hamburguer {
     margin-top: 10px;
     cursor: pointer;
@@ -174,13 +169,14 @@ a .btnFaleConosco {
 }
 
 /*HOMEPAGE*/
-.imgCarro img, .imgCarroVerde img{
-    margin-top: 30px;
-    width: 320px;
-}
-
 section {
     margin-bottom: 80px;
+    text-align: center;
+}
+
+.imgCarro img, .imgCarroVerde img{
+    margin-top: 30px;
+    width: 100%;
 }
 
 /*SECTION 1*/
@@ -221,7 +217,7 @@ section {
     margin-bottom: 45px;
 }
 
-.beneficio h2{
+.beneficio h3{
     margin-top: 35px;
     padding: 10px 10px 15px 0;
     border-bottom: 2px solid #c1c1c1c9;
@@ -332,9 +328,7 @@ footer {
     text-align: center;
     padding: 20px 0;
     width: 100%;
-    position: relative;
     left: 0;
-    position: fixed;
     bottom: 0;
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
 }
@@ -343,4 +337,8 @@ footer p {
     margin: 0;
     font-size: 14px;
     line-height: 1.5;
+}
+
+#faleConosco{
+    position: fixed;
 }
