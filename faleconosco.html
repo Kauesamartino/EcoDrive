@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Fale conosco</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu-hamburguer" onclick="toggleMenu()">
+            <img src="imgs/Aborgue.png" alt=""> <!-- Símbolo do hambúrguer -->
+        </div>
+        <div class="barra-opcoes" id="barraOpcoes">
+            <ul>
+                <li><a href="index.html" class="menu_item">Página Inicial</a></li>
+                <li><a href="#" class="menu_item">Serviços</a></li>
+                <li><a href="carros.html" class="menu_item">Carros disponíveis</a></li>
+                <li><a href="#" class="menu_item">Solicite orçamento</a></li>
+                <li><a href="faleconosco.html" class="menu_item">Fale conosco</a></li>
+                <li><a href="integrantes.html" class="menu_item">Integrantes</a></li>
+            </ul>
+        </div>
+        <div class="btnFaleConosco">
+            <a href="faleconosco.html"><button type="button" class="btnFaleConosco">Fale conosco</button></a>
+        </div>
+    </header>
+
+    <main id="wrapper">
+
+        <div class="formulario-contato">
+            <h4>Entre em Contato</h4>
+
+            <fieldset>
+                <form action="#" method="POST">
+                    <div class="campo-form">
+                        <label for="nome">Nome:</label>
+                        <br>
+                        <input type="text" id="txtNome" name="txtNome">
+                    </div>
+
+                    <div class="campo-form">
+                        <label for="sobrenome">Sobrenome:</label>
+                        <br>
+                        <input type="text" id="txtSobrenome" name="txtSobrenome">
+                    </div>
+
+                    <div class="campo-form">
+                        <label for="email">E-mail:</label>
+                        <br>
+                        <input type="email" id="txtEmail" name="txtEmail">
+                    </div>
+
+                    <div class="campo-form">
+                        <label for="descricao">Descrição:</label>
+                        <br>
+                        <textarea id="descricao" name="descricao" rows="4"></textarea>
+                    </div>
+                </form>
+            </fieldset>
+            <button type="submit" class="btn-enviar" onclick="">Enviar Mensagem</button>
+        </div>
+    </main>
+
+    <footer id="faleConosco">
+        <p>&copy; 2024 Locadora de Carros Elétricos.</p>
+        <p>Todos os direitos reservados.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
