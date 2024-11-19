@@ -1,11 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/XSstyle.css">
+    <link rel="stylesheet" href="css/SMstyle.css">
+    <link rel="stylesheet" href="css/MDstyle.css">
+    <link rel="stylesheet" href="css/LGstyle.css">
+    <link rel="stylesheet" href="css/XLstyle.css">
+    <title>Mensagem Enviada</title>
 </head>
+
 <body>
-    
+    <header>
+        <div class="menu-hamburguer" onclick="toggleMenu()">
+            <img src="imgs/Aborgue.png" alt=""> <!-- Símbolo do hambúrguer -->
+        </div>
+        <div class="barra-opcoes" id="barraOpcoes">
+            <ul>
+                <li><a href="index.html" class="menu_item">Página Inicial</a></li>
+                <li><a href="servicos.html" class="menu_item">Serviços</a></li>
+                <li><a href="carros.html" class="menu_item">Carros disponíveis</a></li>
+                <li><a href="orcamento.html" class="menu_item">Solicite orçamento</a></li>
+                <li><a href="faleconosco.html" class="menu_item">Fale conosco</a></li>
+                <li><a href="integrantes.html" class="menu_item">Integrantes</a></li>
+            </ul>
+        </div>
+        <div class="btnFaleConosco">
+            <a href="faleconosco.html"><button type="button" class="btnFaleConosco">Fale conosco</button></a>
+        </div>
+    </header>
+
+    <main id="wrapper">
+        <div class="btnVoltarTelaInicial">
+            <a href="index.html" class="btnVoltar">Voltar para a Página Inicial</a>
+        </div>
+        <section id="mensagemConfirmacao">
+            <h1>Mensagem Enviada!</h1>
+            <p>Obrigado por entrar em contato. Sua mensagem foi enviada com sucesso.</p>
+            <p>Em breve, nossa equipe irá responder sua solicitação.</p>
+
+        </section>
+    </main>
+
+    <footer id="mensagemEnviada">
+        <p>&copy; 2024 Locadora de Carros Elétricos.</p>
+        <p>Todos os direitos reservados.</p>
+    </footer>
+    <script src="js/script.js"></script>
 </body>
+
 </html>

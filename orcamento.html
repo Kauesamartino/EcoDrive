@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,13 +9,12 @@
     <link rel="stylesheet" href="css/MDstyle.css">
     <link rel="stylesheet" href="css/LGstyle.css">
     <link rel="stylesheet" href="css/XLstyle.css">
-    <title>Carros disponíveis</title>
+    <title>Solicite orçamento</title>
 </head>
-
 <body>
     <header>
         <div class="menu-hamburguer" onclick="toggleMenu()">
-        <img src="imgs/Aborgue.png" alt=""> <!-- Símbolo do hambúrguer -->
+            <img src="imgs/Aborgue.png" alt=""> <!-- Símbolo do hambúrguer -->
         </div>
         <div class="barra-opcoes" id="barraOpcoes">
             <ul>
@@ -35,13 +33,44 @@
 
     <main id="wrapper">
 
+        <div class="formulario-contato">
+            <h4>Orçamento</h4>
+
+            <fieldset>
+                <form action="#" method="POST">
+                    <div class="campo-form">
+                        <label for="nome">Nome:</label>
+                        <br>
+                        <input type="text" id="txtNome" name="txtNome">
+                    </div>
+
+                    <div class="campo-form">
+                        <label for="nomeEmpresa">Nome da empresa (caso possua):</label>
+                        <br>
+                        <input type="text" id="txtNomeEmpresa" name="txtNomeEmpresa">
+                    </div>
+
+                    <div class="campo-form">
+                        <label for="email">E-mail:</label>
+                        <br>
+                        <input type="email" id="txtEmail" name="txtEmail">
+                    </div>
+
+                    <div class="campo-form">
+                        <label for="orcamento">Informe os carros e a quantidade que deseja:</label>
+                        <br>
+                        <textarea id="orcamento" name="orcamento" rows="5" style="resize: none;"></textarea>
+                    </div>
+                </form>
+            </fieldset>
+            <button type="submit" class="btn-enviar" onclick="">Solicitar orçamento</button>
+        </div>
     </main>
 
-    <footer>
+    <footer id="faleConosco">
         <p>&copy; 2024 Locadora de Carros Elétricos.</p>
         <p>Todos os direitos reservados.</p>
     </footer>
     <script src="js/script.js"></script>
 </body>
-
 </html>

@@ -3,48 +3,135 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /*GERAL*/
@@ -59,40 +146,40 @@ body {
     font-family: Arial, sans-serif;
 }
 
-h1{
+h1 {
     color: #fff;
     font-size: 36px;
     line-height: 40px;
 }
-    
-h2{
+
+h2 {
     color: #fff;
     font-size: 30px;
     line-height: 36px;
 }
 
-h3{ 
+h3 {
     color: #fff;
-    font-size: 26px; 
-    line-height: 14px; 
+    font-size: 26px;
+    line-height: 14px;
 }
 
-p{ 
+p {
     color: #C1C1C1;
     font-size: 18px;
-    line-height: 24px; 
+    line-height: 24px;
 }
 
 /* HEADER */
 header {
-    padding: 10px 4%;   
+    padding: 10px 4%;
     display: flex;
     justify-content: space-between;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #2B2B2E; 
+    background-color: #2B2B2E;
     z-index: 999;
     border-bottom: 3px solid #00FF44;
 }
@@ -114,7 +201,6 @@ a .btnFaleConosco {
 
 #wrapper {
     padding-top: 80px;
-    margin-top: 60px;
     margin-left: 35px;
     margin-right: 35px;
     padding-bottom: 60px;
@@ -126,7 +212,8 @@ a .btnFaleConosco {
     height: 100vh;
     position: fixed;
     top: 0;
-    left: -100%; /* Começa fora da tela */
+    left: -100%;
+    /* Começa fora da tela */
     background-color: #2B2B2E;
     padding: 20px;
     transition: 0.3s ease-in-out;
@@ -134,7 +221,8 @@ a .btnFaleConosco {
 }
 
 .barra-opcoes.active {
-    left: 0; /* Quando ativo, move para posição visível */
+    left: 0;
+    /* Quando ativo, move para posição visível */
 }
 
 .barra-opcoes ul {
@@ -165,7 +253,7 @@ a .btnFaleConosco {
     z-index: 1001;
 }
 
-.menu-hamburguer img{
+.menu-hamburguer img {
     width: 25px;
 }
 
@@ -175,13 +263,18 @@ section {
     text-align: center;
 }
 
-.imgCarro img, .imgCarroVerde img{
+.imgCarro img,
+.imgCarroVerde img {
     margin-top: 50px;
     width: 100%;
 }
 
 /*SECTION 1*/
-.texto{
+#section1{
+    margin-top: 60px;
+}
+
+.texto {
     text-align: left;
     letter-spacing: -.0042em;
 }
@@ -209,23 +302,23 @@ section {
 }
 
 /*SECTION 2*/
-#section2 h2{
+#section2 h2 {
     margin-top: 50px;
 }
 
 /*SECTION 3*/
-#section3 h1{
+#section3 h1 {
     margin-bottom: 45px;
 }
 
-.beneficio h3{
+.beneficio h3 {
     margin-top: 35px;
     padding: 10px 10px 15px 0;
     border-bottom: 2px solid #c1c1c1c9;
 }
 
 /*Fale Conosco*/
-h4{
+h4 {
     color: #fff;
     font-size: 36px;
     line-height: 36px;
@@ -234,26 +327,29 @@ h4{
 }
 
 .formulario-contato {
+    padding-top: 40px;
+    margin-top: 60px;
     max-width: 600px;
-    width: 90%;              
+    width: 90%;
     margin: 2rem auto;
     color: #fff;
 }
 
-fieldset{
-    padding: 20px ;
+fieldset {
+    padding: 20px;
     border: 2px solid #00FF44;
     border-radius: 10px;
 }
 
 .campo-form label {
     font-size: 16px;
+    line-height: 20px;
 }
 
-.campo-form input{
+.campo-form input {
     color: #fff;
-    font-weight: 400;
     margin-top: 5px;
+    font-weight: 500;
     margin-bottom: 20px;
     width: 100%;
     height: 30px;
@@ -262,9 +358,9 @@ fieldset{
     border: 0;
 }
 
-.campo-form textarea{
+.campo-form textarea {
     color: #fff;
-    font-weight: 400;
+    font-weight: 500;
     margin-top: 5px;
     width: 100%;
     border: 0;
@@ -272,7 +368,7 @@ fieldset{
     background: #ffffff3d;
 }
 
-.btn-enviar{
+.btn-enviar {
     margin-top: 30px;
     height: 45px;
     border-radius: 50px;
@@ -287,7 +383,7 @@ fieldset{
 
 .btn-enviar:hover {
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .btn-enviar:active {
@@ -295,34 +391,66 @@ fieldset{
 }
 
 /*INTEGRANTES*/
-h5{
+h5 {
     font-size: 28px;
     color: #fff;
 }
 
-.integrante{
+.tituloIntegrantes{
+    margin-top: 60px;
+}
+
+.integrante {
     margin-top: 80px;
     margin-bottom: 60px;
 }
 
-.txtIntegrante p{
+.txtIntegrante p {
     margin-top: 10px;
 }
 
-.txtIntegrante a{
+.txtIntegrante a {
     color: #fff;
     font-style: normal;
 }
 
-.imgIntegrante{
+.imgIntegrante {
     text-align: center;
     margin-bottom: 30px;
 }
 
-.imgIntegrante img{
+.imgIntegrante img {
     border: 5px solid #C1C1C1;
     border-radius: 10rem;
     width: 250px;
+}
+
+/* Mensagem Enviada*/
+.mensagemConfirmacao{
+    margin-top: 0;
+}
+
+#mensagemConfirmacao {
+    margin-top: 200px;
+}
+
+#mensagemConfirmacao h1 {
+    font-size: 30px;
+}
+
+#mensagemConfirmacao p {
+    font-size: 16px;
+}
+
+.btnVoltarTelaInicial{
+    margin-top: 20px;
+    text-align: left;
+}
+
+.btnVoltarTelaInicial a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #C1C1C1;
 }
 
 /*FOOTER*/
@@ -343,6 +471,7 @@ footer p {
     line-height: 1.5;
 }
 
-#faleConosco{
+#faleConosco,
+#mensagemEnviada {
     position: fixed;
 }
