@@ -105,22 +105,35 @@
 
     /* Integrantes */
     h5{
-        font-size: 40px;
+        font-size: 25px;
+    }
+
+
+    .integrantes{
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
     }
 
     .integrante{
-        display: flex;
-        justify-content: space-around;
-        gap: 60px;
+        margin-top: 20px;
+    }
+
+    .integrante img{
+        width: 200px;
     }
 
     .txtIntegrante{
         text-align: left;
-        margin-top: 80px;
+        margin-top: 20px;
     }
 
     /* Footer */
     footer{
         padding: 15px 0;
+    }
+
+    #integrantePage{
+        position: relative;
     }
 }

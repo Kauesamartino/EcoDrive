@@ -9,6 +9,7 @@
     }
 
     #wrapper{
+        justify-content: space-around;
         margin-top: 80px;
         margin-left: 150px;
         margin-right: 150px;
@@ -130,11 +131,12 @@
 
     .integrantes{
         display: flex;
-        justify-content: space-between;
-        gap: 30px;
-        margin-right: 10%;
-        margin-left: 10%;
-        margin-bottom: 50px;
+        justify-content: center;
+        gap: 120px;
+    }
+
+    .integrante{
+        margin-top: 20px;
     }
 
     .integrante p{
@@ -152,6 +154,10 @@
     /* Footer */
     footer{
         padding: 15px 0;
+    }
+
+    #integrantePage{
+        position: fixed;
     }
 }
 
@@ -256,7 +262,16 @@
         justify-content: space-between;
     }
 
+    .integrante{
+        margin-top: 10px;
+    }
+
+    /* Footer */
     footer{
         padding: 15px 0;
+    }
+
+    #integrantePage{
+        position: fixed;
     }
 }   
