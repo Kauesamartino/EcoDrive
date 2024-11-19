@@ -61,19 +61,19 @@ body {
 
 h1{
     color: #fff;
-    font-size: 32px;
-    line-height: 36px;
+    font-size: 36px;
+    line-height: 40px;
 }
     
 h2{
     color: #fff;
-    font-size: 26px; 
-    line-height: 22px; 
+    font-size: 30px;
+    line-height: 36px;
 }
 
 h3{ 
     color: #fff;
-    font-size: 22px; 
+    font-size: 26px; 
     line-height: 14px; 
 }
 
@@ -117,6 +117,7 @@ a .btnFaleConosco {
     margin-top: 60px;
     margin-left: 35px;
     margin-right: 35px;
+    padding-bottom: 60px;
 }
 
 /* Menu hamburguer */
@@ -213,9 +214,7 @@ section {
 }
 
 /*SECTION 3*/
-#section3 h2{
-    font-size: 32px;
-    line-height: 36px;
+#section3 h1{
     margin-bottom: 45px;
 }
 
@@ -225,10 +224,10 @@ section {
     border-bottom: 2px solid #c1c1c1c9;
 }
 
-/*FALE CONOSCO*/
+/*Fale Conosco*/
 h4{
     color: #fff;
-    font-size: 30px;
+    font-size: 36px;
     line-height: 36px;
     margin-bottom: 40px;
     text-align: center;
@@ -252,6 +251,8 @@ fieldset{
 }
 
 .campo-form input{
+    color: #fff;
+    font-weight: 400;
     margin-top: 5px;
     margin-bottom: 20px;
     width: 100%;
@@ -262,6 +263,8 @@ fieldset{
 }
 
 .campo-form textarea{
+    color: #fff;
+    font-weight: 400;
     margin-top: 5px;
     width: 100%;
     border: 0;
@@ -298,13 +301,12 @@ h5{
 }
 
 .integrante{
-    margin-top: 40px;
+    margin-top: 80px;
     margin-bottom: 60px;
 }
 
 .txtIntegrante p{
     margin-top: 10px;
-    font-size: 16px;
 }
 
 .txtIntegrante a{
@@ -314,7 +316,7 @@ h5{
 
 .imgIntegrante{
     text-align: center;
-    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .imgIntegrante img{
@@ -341,6 +343,6 @@ footer p {
     line-height: 1.5;
 }
 
-#faleConosco{
+#faleConosco, #integrantePage{
     position: fixed;
 }

@@ -1,0 +1,126 @@
+@media (min-width: 992px) and (max-width: 1199px){
+    /* Geral */
+    header{
+        padding: 15px 3%;
+    }
+
+    a .btnFaleConosco{
+        padding: 8px 25px;
+    }
+
+    #wrapper{
+        margin-top: 80px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    h2{
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    h3{
+        font-size: 24px;
+    }
+
+    p{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    /*Menu Hamburguer*/
+    .barra-opcoes{
+        width: 40%;
+        left: -40%;
+    }
+
+    .menu-hamburguer img{
+        width: 28px;
+    }
+
+    /* Homepage */
+    .imgCarro img{
+        margin-top: 0;
+        min-width: 380px;
+        width: 100%;
+    }
+
+    #section1{
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        gap: 60px;
+        margin-bottom: 0;
+    }
+
+    #section2{
+        margin-top: 265px;
+    }
+
+    #section2 h2{
+        margin-top: 30px;
+    }
+
+    #creditoCarbono{
+        display: flex;
+        margin-top: 60px;
+        justify-content: space-around;
+        gap: 40px;
+    }
+
+    .imgCarroVerde img{
+        margin-top: 0;
+        width: 100%;
+        min-width: 380px;
+    }
+
+    #beneficios{
+        display: flex;
+        justify-content: space-around;
+        gap: 40px;
+    }
+
+    #section3 h1{
+        margin-bottom: 0;
+    }
+
+    #section3 p{
+        font-size: 17px;
+        letter-spacing: .0042em;
+    }
+
+    /* Fale Conosco*/
+    h4{
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    .btn-enviar{
+        margin-bottom: 60px;
+    }
+
+    /* Integrantes */
+    h5{
+        font-size: 40px;
+    }
+
+    .integrante{
+        display: flex;
+        justify-content: space-around;
+        gap: 60px;
+    }
+
+    .txtIntegrante{
+        text-align: left;
+        margin-top: 80px;
+    }
+
+    /* Footer */
+    footer{
+        padding: 15px 0;
+    }
+}

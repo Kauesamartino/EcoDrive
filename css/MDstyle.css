@@ -1,0 +1,119 @@
+@media (min-width: 768px) and (max-width: 991px){
+    /* Geral */
+    
+    a .btnFaleConosco{
+        padding: 10px 25px;
+    }
+    
+    .btnFaleConosco{
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: .1rem;
+    }
+    
+    #wrapper{
+        margin-top: 90px;
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+    
+    h1{
+        font-size: 44px;
+        line-height: 54px;
+    }
+    
+    h2{
+        font-size: 32px;
+        line-height: 36px;
+    }
+    
+    h3{
+        font-size: 28px;
+        line-height: 15px;
+    }
+    
+    p{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    
+    /* Header */
+    header {
+        padding: 15px 3%;
+    }
+
+    /*Menu Hamburguer*/
+    .barra-opcoes{
+        width: 100%;
+        left: -100%;
+    }
+
+    .menu-hamburguer img{
+        width: 29px;
+    }
+
+    /* Homepage */
+    .btnOrcamento button{
+        margin-top: 15px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .imgCarro img{
+        margin-top: 90px;
+        text-align: center;
+        width: 100%;
+        max-width: 600px;
+    }
+
+    section{
+        margin-bottom: 90px;
+    }
+
+    #section2 h2{
+        margin-top: 90px;
+    }
+
+    #section3 h1{
+        margin-bottom: 100px;
+    }
+
+    .beneficio h3{
+        margin-top: 80px;
+    }
+
+    /* Fale Conosco */
+    h4{
+        font-size: 46px;
+    }
+
+    .btn-enviar{
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 60px;
+    }
+
+    /* Integrantes */
+    h5{
+        font-size: 34px;
+    }
+
+    .integrante{
+        display: flex;
+        justify-content: space-around;
+        gap: 60px;
+    }
+
+    .txtIntegrante{
+        margin-top: 80px;
+    }
+
+    /* Footer */
+    footer{
+        padding: 15px 0;
+    }
+
+    footer p{
+        font-size: 18px;
+    }
+}
