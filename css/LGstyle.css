@@ -9,7 +9,6 @@
     }
 
     #wrapper{
-        margin-top: 80px;
         margin-left: 60px;
         margin-right: 60px;
     }
@@ -133,7 +132,7 @@
         padding: 15px 0;
     }
 
-    #integrantePage{
+    #integrantePage, #faleConosco{
         position: relative;
     }
 }
