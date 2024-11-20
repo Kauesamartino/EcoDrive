@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +12,119 @@
     <link rel="stylesheet" href="css/XLstyle.css">
     <title>Serviços</title>
 </head>
+
 <body>
-    
+    <header>
+        <div class="menu-hamburguer" onclick="toggleMenu()">
+            <img src="imgs/Aborgue.png" alt=""> <!-- Símbolo do hambúrguer -->
+        </div>
+        <div class="barra-opcoes" id="barraOpcoes">
+            <ul>
+                <li><a href="index.html" class="menu_item">Página Inicial</a></li>
+                <li><a href="servicos.html" class="menu_item">Serviços</a></li>
+                <li><a href="carros.html" class="menu_item">Carros disponíveis</a></li>
+                <li><a href="orcamento.html" class="menu_item">Solicite orçamento</a></li>
+                <li><a href="faleconosco.html" class="menu_item">Fale conosco</a></li>
+                <li><a href="integrantes.html" class="menu_item">Integrantes</a></li>
+            </ul>
+        </div>
+        <div class="btnFaleConosco">
+            <a href="faleconosco.html"><button type="button" class="btnFaleConosco">Fale conosco</button></a>
+        </div>
+    </header>
+    <main id="wrapper">
+        <section id="section1">
+            <div class="texto">
+                <h1>Transformando Mobilidade, Beneficiando o Planeta</h1>
+                <br>
+                <p>Na nossa locadora, oferecemos soluções personalizadas para atender às suas
+                    necessidades de mobilidade, sejam individuais ou empresariais. Nosso compromisso vai além de
+                    fornecer veículos. Trabalhamos para construir um futuro sustentável, conectando inovação, economia e
+                    responsabilidade ambiental.</p>
+            </div>
+        </section>
+
+        <section id="section2-servicos">
+            <div class="texto">
+                <h2>Aluguel Individual de Carros Elétricos</h2>
+                <br>
+                <p>Ideal para pessoas físicas que buscam praticidade, economia e sustentabilidade em seus deslocamentos
+                    diários ou viagens específicas.</p>
+                <br>
+                <div class="beneficiosServicos">
+                    <h3>Benefícios</h3>
+                    <br>
+                    <p><strong>Economia:</strong> Reduza os gastos com combustível ao optar por veículos elétricos, que
+                        possuem custos operacionais mais baixos.</p>
+                    <br>
+                    <p><strong>Sustentabilidade:</strong> Cada quilômetro percorrido com um carro elétrico contribui
+                        para a redução de emissões de gases do efeito estufa.</p>
+                    <br>
+                    <p><strong>Conforto e Tecnologia:</strong> Nossa frota oferece modelos modernos e equipados com
+                        tecnologias de ponta para tornar sua experiência de direção ainda mais agradável.</p>
+                </div>
+            </div>
+
+            <div class="texto">
+                <h2>Frotas Corporativas de Carros Elétricos</h2>
+                <br>
+                <p>Empresas podem alugar frotas completas para motoristas parceiros, serviços logísticos ou uso interno,
+                    alinhando-se a práticas de governança ambiental, social e corporativa (ESG).</p>
+                <br>
+                <div class="beneficiosServicos">
+                    <h3>Benefícios</h3>
+                    <br>
+                    <p><strong>Crédito de Carbono:</strong> Ao alugar nossa frota, sua empresa não apenas reduz
+                        emissões, mas também é recompensada com créditos de carbono.</p>
+                    <br>
+                    <p><strong>Imagem Positiva:</strong> Posicione sua marca como referência em sustentabilidade e
+                        responsabilidade ambiental.</p>
+                    <br>
+                    <p><strong>Eficiência Operacional:</strong> Carros elétricos garantem economia em manutenção e
+                        abastecimento, proporcionando maior previsibilidade financeira.</p>
+                </div>
+            </div>
+        </section>
+        <section id="section3-servicos">
+            <div class="texto">
+                <h1>Por que escolher nossos serviços?</h1>
+                <div class="diferenciais">
+                    <div class="diferencial-item">
+                        <h3>Sustentabilidade em Primeiro Lugar</h3>
+                        <p>Ao adotar nossos veículos, você contribui diretamente para um planeta mais limpo e saudável.
+                        </p>
+                    </div>
+                    <div class="diferencial-item">
+                        <h3>Flexibilidade e Personalização</h3>
+                        <p>Seja um único carro para uso pessoal ou uma frota completa para sua empresa, adaptamos nossos
+                            serviços para atender às suas demandas.</p>
+                    </div>
+                    <div class="diferencial-item">
+                        <h3>Inovação ao Seu Alcance</h3>
+                        <p>Trabalhamos com as mais recentes tecnologias para oferecer uma experiência que combina
+                            eficiência, conforto e segurança.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="final-section">
+            <div class="texto">
+                <h2>Faça Parte da Mudança</h2>
+                <br>
+                <p>Nossos serviços não são apenas uma solução de mobilidade, mas um convite para transformar a maneira
+                    como
+                    você se conecta ao mundo, ao mesmo tempo que contribui para um futuro mais sustentável.</p>
+                <p class="cta-text">Entre em contato e descubra como podemos impulsionar você ou sua empresa com energia
+                    limpa e eficiência!</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Locadora de Carros Elétricos.</p>
+        <p>Todos os direitos reservados.</p>
+    </footer>
+    <script src="js/script.js"></script>
 </body>
+
 </html>

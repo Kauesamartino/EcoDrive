@@ -132,6 +132,45 @@
         margin-top: 20px;
     }
 
+    /* Carro */
+    .carros{
+        text-align: center;
+        justify-content: space-between;
+        display: flex;
+        gap: 60px;
+    }
+
+    .imgCarros img{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .carro{
+        width: 100%;
+        text-align: left;
+        padding: 15px;
+        margin-bottom: 50px;
+        border-radius: 8px;
+        transition: box-shadow 0.3s ease;
+    }
+
+    .carro:hover{
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    #seres3 img{
+        width: 90%;
+    }
+
+    /* Servicos */
+    .diferenciais{
+        margin-top: 60px;
+    }
+
+    .diferencial-item{
+        margin-top: 30px;
+    }
+
     /* Footer */
     footer{
         padding: 15px 0;

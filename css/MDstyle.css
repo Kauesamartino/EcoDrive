@@ -109,6 +109,20 @@
         margin-top: 80px;
     }
 
+    /* Carro */
+    .carro{
+        margin-bottom: 150px;
+    }
+
+    /* Servicos */
+    .diferenciais{
+        margin-top: 60px;
+    }
+
+    .diferencial-item{
+        margin-top: 30px;
+    }
+
     /* Footer */
     footer{
         padding: 15px 0;

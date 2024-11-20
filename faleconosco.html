@@ -38,8 +38,8 @@
         <div class="formulario-contato">
             <h4>Entre em Contato</h4>
 
-            <fieldset>
-                <form action="#" method="POST" id="formContato" onsubmit="return validarFormContato(event)">
+            <form action="#" method="POST" id="formContato" onsubmit="return validarFormContato(event)">
+                <fieldset>
                     <div class="campo-form">
                         <label for="nome">Nome:</label>
                         <br>
@@ -63,11 +63,11 @@
                         <br>
                         <textarea id="mensagem" name="mensagem" rows="5" style="resize: none;"></textarea>
                     </div>
-                    <div class="btn">
-                        <a href="mensagem-enviada.html"><button type="submit" class="btn-enviar">Enviar Mensagem</button></a>
-                    </div>
-                </form>
-            </fieldset>
+                </fieldset>
+                <div class="btn">
+                    <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+                </div>
+            </form>
         </div>
     </main>
 

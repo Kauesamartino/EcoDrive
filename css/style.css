@@ -24,7 +24,7 @@ h2 {
 h3 {
     color: #fff;
     font-size: 26px;
-    line-height: 14px;
+    line-height: 30px;
 }
 
 p {
@@ -315,6 +315,59 @@ h5 {
     cursor: pointer;
     text-decoration: underline;
     color: #C1C1C1;
+}
+
+/* Carros */
+.carros{
+    margin-top: 90px;
+    text-align: center;
+}
+
+.carro {
+    margin-bottom: 90px;
+}
+
+.carro h3{
+    margin-bottom: 60px;
+}
+
+.imgCarros img{
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+.carro p{
+    text-align: left;
+}
+
+/* Servicos */
+#section2-servicos .texto{
+    margin-top: 90px;
+}
+
+.beneficiosServicos{
+    margin-top: 30px;
+}
+
+.beneficiosServicos p strong{
+    color: #fff;
+}
+
+.diferenciais{
+    margin-top: 40px;
+}
+
+.diferencial-item{
+    margin-top: 60px;
+}
+
+.diferencial-item h3{
+    font-size: 24px;
+    line-height: 30px;
+}
+
+#section3-servicos{
+    margin-top: 120px;
 }
 
 /*FOOTER*/
