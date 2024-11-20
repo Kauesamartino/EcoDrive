@@ -182,12 +182,37 @@
     }
 
     /* Servicos */
-    .diferenciais{
-        margin-top: 60px;
+    #section-hero{
+        margin-top: 120px;
     }
 
+    .servicos{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .beneficiosServicos{
+        margin-top: 0;
+    }
+    
     .diferencial-item{
-        margin-top: 30px;
+        margin-top: 20px;
+    }
+
+    .servicos h1{
+        font-size: 38px;
+    }
+
+    .servicos h2{
+        font-size: 30px;
+    }
+
+    .servicos h3{
+        font-size: 24px;
+    }
+
+    .servicos p{
+        font-size: 20px;
     }
 
     /* Footer */
@@ -336,12 +361,33 @@
     }
 
     /* Servicos */
-    .diferenciais{
-        margin-top: 60px;
+    #section-hero{
+        margin-top: 120px;
     }
 
+    .servicos{
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .beneficiosServicos{
+        margin-top: 0;
+    }
+    
     .diferencial-item{
-        margin-top: 30px;
+        margin-top: 20px;
+    }
+
+    .servicos h1{
+        font-size: 34px;
+    }
+
+    .servicos h3{
+        font-size: 20px;
+    }
+
+    .servicos p{
+        font-size: 17px;
     }
 
     /* Footer */

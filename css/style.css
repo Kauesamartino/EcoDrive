@@ -341,33 +341,29 @@ h5 {
 }
 
 /* Servicos */
-#section2-servicos .texto{
-    margin-top: 90px;
-}
-
-.beneficiosServicos{
-    margin-top: 30px;
-}
-
-.beneficiosServicos p strong{
-    color: #fff;
-}
-
-.diferenciais{
-    margin-top: 40px;
-}
-
-.diferencial-item{
+#section-hero{
     margin-top: 60px;
 }
 
-.diferencial-item h3{
-    font-size: 24px;
-    line-height: 30px;
+.servicos{
+    text-align: left;
+    letter-spacing: -.0042em;
 }
 
-#section3-servicos{
-    margin-top: 120px;
+.beneficiosServicos{
+    margin-top: 60px;
+}
+
+.tituloFrota{
+    margin-top: 90px;
+}
+
+.diferenciais{
+    margin-top: 60px;
+}
+
+.diferencial-item{
+    margin-top: 40px;
 }
 
 /*FOOTER*/
