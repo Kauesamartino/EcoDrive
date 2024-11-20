@@ -9,7 +9,7 @@
     }
 
     #wrapper{
-        margin-top: 40px;
+        margin-top: 60px;
         margin-left: 60px;
         margin-right: 60px;
     }
@@ -55,6 +55,10 @@
         justify-content: space-around;
         gap: 60px;
         margin-bottom: 0;
+    }
+
+    #txtTextoInicial{
+        margin-top: 20px;
     }
 
     #section2{
