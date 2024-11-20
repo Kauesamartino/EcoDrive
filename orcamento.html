@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/XSstyle.css">
     <link rel="stylesheet" href="css/SMstyle.css">
     <link rel="stylesheet" href="css/MDstyle.css">
     <link rel="stylesheet" href="css/LGstyle.css">
     <link rel="stylesheet" href="css/XLstyle.css">
     <title>Solicite orçamento</title>
 </head>
+
 <body>
     <header>
         <div class="menu-hamburguer" onclick="toggleMenu()">
@@ -37,7 +39,7 @@
             <h4>Orçamento</h4>
 
             <fieldset>
-                <form action="#" method="POST">
+                <form action="#" method="POST" id="formOrcamento" onsubmit="return validarFormOrcamento(event)">
                     <div class="campo-form">
                         <label for="nome">Nome:</label>
                         <br>
@@ -59,20 +61,21 @@
                     <div class="campo-form">
                         <label for="orcamento">Informe os carros e a quantidade que deseja:</label>
                         <br>
-                        <textarea id="orcamento" name="orcamento" rows="5" style="resize: none;"></textarea>
+                        <textarea id="mensagem" name="mensagem" rows="5" style="resize: none;"></textarea>
+                    </div>
+                    <div class="btn">
+                        <button type="submit" class="btn-enviar">Enviar Solicitação</button>
                     </div>
                 </form>
             </fieldset>
-            <div class="btn">
-                <a href="mensagem-enviada.html"><button type="button" class="btn-enviar">Solicite orçamento</button></a>
-            </div>
         </div>
     </main>
 
-    <footer id="faleConosco">
+    <footer id="orcamento">
         <p>&copy; 2024 Locadora de Carros Elétricos.</p>
         <p>Todos os direitos reservados.</p>
     </footer>
     <script src="js/script.js"></script>
 </body>
+
 </html>

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/MDstyle.css">
     <link rel="stylesheet" href="css/LGstyle.css">
     <link rel="stylesheet" href="css/XLstyle.css">
-    <title>Fale conosco</title>
+    <title>Mensagem Enviada</title>
 </head>
 
 <body>
@@ -34,44 +34,17 @@
     </header>
 
     <main id="wrapper">
-
-        <div class="formulario-contato">
-            <h4>Entre em Contato</h4>
-
-            <fieldset>
-                <form action="#" method="POST" id="formContato" onsubmit="return validarFormContato(event)">
-                    <div class="campo-form">
-                        <label for="nome">Nome:</label>
-                        <br>
-                        <input type="text" id="txtNome" name="txtNome">
-                    </div>
-
-                    <div class="campo-form">
-                        <label for="sobrenome">Sobrenome:</label>
-                        <br>
-                        <input type="text" id="txtSobrenome" name="txtSobrenome">
-                    </div>
-
-                    <div class="campo-form">
-                        <label for="email">E-mail:</label>
-                        <br>
-                        <input type="email" id="txtEmail" name="txtEmail">
-                    </div>
-
-                    <div class="campo-form">
-                        <label for="mensagem">Mensagem:</label>
-                        <br>
-                        <textarea id="mensagem" name="mensagem" rows="5" style="resize: none;"></textarea>
-                    </div>
-                    <div class="btn">
-                        <a href="mensagem-enviada.html"><button type="submit" class="btn-enviar">Enviar Mensagem</button></a>
-                    </div>
-                </form>
-            </fieldset>
+        <div class="btnVoltarTelaInicial">
+            <a href="index.html" class="btnVoltar">Voltar para a Página Inicial</a>
         </div>
+        <section id="mensagemConfirmacao">
+            <h1>Solicitação de Orçamento Enviada!</h1>
+            <p>Obrigado pela preferência. Sua solicitação foi enviada com sucesso.</p>
+            <p>Em breve, nossa equipe irá te enviar um orçamento por email.</p>
+        </section>
     </main>
 
-    <footer id="faleConosco">
+    <footer id="mensagemEnviada">
         <p>&copy; 2024 Locadora de Carros Elétricos.</p>
         <p>Todos os direitos reservados.</p>
     </footer>

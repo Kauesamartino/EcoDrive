@@ -51,8 +51,8 @@
 
     /* Homepage */
     .imgCarro img{
-        min-width: 540px;
-        width: 100%;
+        min-width: 510px;
+        width: 95%;
     }
 
     #section1{
@@ -64,7 +64,7 @@
     }
 
     #txtInicial{
-        margin-top: 50px;
+        margin-top: 60px;
         width: 50%;
     }
 
