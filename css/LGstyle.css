@@ -32,6 +32,21 @@
         line-height: 24px;
     }
 
+    /* Header */
+    .imagensHeader{
+        display: flex;
+        gap: 30px;
+    }
+    
+    .imgLogo img{
+        margin-top: 7px;
+        width: 150px;
+    }
+
+    .imgLogo{
+        margin-right: 58%;
+    }
+
     /*Menu Hamburguer*/
     .barra-opcoes{
         width: 40%;

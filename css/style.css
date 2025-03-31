@@ -47,6 +47,16 @@ header {
     border-bottom: 3px solid #00FF44;
 }
 
+.imagensHeader{
+    display: flex;
+    gap: 30px;
+}
+
+.imgLogo img{
+    margin-top: 9px;
+    width: 110px;
+}
+
 a .btnFaleConosco {
     background-color: transparent;
     border: 2px solid #00FF44;
@@ -350,6 +360,10 @@ h5 {
     letter-spacing: -.0042em;
 }
 
+.servicos strong{
+    color: #fff;
+}
+
 .beneficiosServicos{
     margin-top: 60px;
 }
@@ -358,8 +372,12 @@ h5 {
     margin-top: 90px;
 }
 
+.credito{
+    margin-top: 90px;
+}
+
 .diferenciais{
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .diferencial-item{

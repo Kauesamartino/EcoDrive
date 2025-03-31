@@ -43,6 +43,20 @@
         padding: 15px 3%;
     }
 
+    .imagensHeader{
+        display: flex;
+        gap: 30px;
+    }
+
+    .imgLogo{
+        margin-right: 43%;
+    }
+    
+    .imgLogo img{
+        margin-top: 8px;
+        width: 150px;
+    }
+
     /*Menu Hamburguer*/
     .barra-opcoes{
         width: 100%;

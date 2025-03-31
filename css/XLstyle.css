@@ -1,61 +1,77 @@
-@media (min-width: 1400px){
+@media (min-width: 1400px) {
+
     /* Geral */
-    header{
+    header {
         padding: 15px 2%;
     }
 
-    a .btnFaleConosco{
+    a .btnFaleConosco {
         padding: 8px 25px;
     }
 
-    #wrapper{
+    #wrapper {
         justify-content: space-around;
         margin-left: 150px;
         margin-right: 150px;
     }
 
-    h1{
+    h1 {
         font-size: 58px;
         line-height: 64px;
     }
 
-    h2{
+    h2 {
         font-size: 46px;
         line-height: 34px;
     }
 
-    h3{
+    h3 {
         font-size: 42px;
         line-height: 45px;
     }
-    
-    p{
+
+    p {
         font-size: 24px;
         line-height: 34px;
         letter-spacing: 9%;
     }
 
+    /* Header */
+    .imagensHeader {
+        display: flex;
+        gap: 30px;
+    }
+
+    .imgLogo img {
+        margin-top: 5px;
+        width: 150px;
+    }
+
+    .imgLogo {
+        margin-right: 70%;
+    }
+
     /*Menu Hamburguer*/
-    .barra-opcoes{
+    .barra-opcoes {
         width: 30%;
         left: -30%;
     }
 
-    .menu-hamburguer{
+    .menu-hamburguer {
         margin-top: 8px;
     }
 
-    .menu-hamburguer img{
+    .menu-hamburguer img {
         width: 27px;
     }
 
     /* Homepage */
-    .imgCarro img{
+    .imgCarro img {
         min-width: 510px;
         width: 95%;
     }
 
-    #section1{
+    #section1 {
         display: flex;
         text-align: center;
         justify-content: space-around;
@@ -63,95 +79,95 @@
         margin-bottom: 0;
     }
 
-    #txtInicial{
+    #txtInicial {
         margin-top: 60px;
         width: 50%;
     }
 
-    #section2{
+    #section2 {
         margin-top: 265px;
     }
 
-    #creditoCarbono{
+    #creditoCarbono {
         margin-top: 60px;
         display: flex;
         justify-content: space-around;
         gap: 49px;
     }
 
-    #txtCreditoCarbono{
+    #txtCreditoCarbono {
         margin-top: 50px;
         width: 534px;
     }
 
-    .imgCarroVerde img{
+    .imgCarroVerde img {
         margin-top: 5%;
         max-width: 640px;
     }
 
-    #beneficios{
+    #beneficios {
         display: flex;
         justify-content: space-around;
         gap: 40px;
     }
 
-    .beneficio{
+    .beneficio {
         margin-top: 69px;
         width: 370px;
     }
 
-    .beneficio h3{
+    .beneficio h3 {
         border-bottom: 3px solid #c1c1c1c9;
     }
 
-    #section3{
+    #section3 {
         margin-top: 250px;
     }
 
-    #section3 h1{
+    #section3 h1 {
         margin-bottom: 0;
     }
 
-    #section3 p{
+    #section3 p {
         font-size: 24px;
         letter-spacing: .0042em;
     }
 
     /* Fale Conosco */
-    h4{
+    h4 {
         font-size: 42px;
         line-height: 56px;
     }
 
     /*Integrantes*/
-    h5{
+    h5 {
         font-size: 40px;
     }
 
-    .integrantes{
+    .integrantes {
         display: flex;
         justify-content: center;
         gap: 120px;
     }
 
-    .integrante{
+    .integrante {
         margin-top: 20px;
     }
 
-    .integrante p{
+    .integrante p {
         font-size: 20px;
     }
 
-    .txtIntegrante{
+    .txtIntegrante {
         margin-top: 30px;
     }
 
-    .imgIntegrante img{
+    .imgIntegrante img {
         width: 300px;
     }
 
     /* Carros */
-    .carros{
+    .carros {
         margin-top: 150px;
         text-align: center;
         justify-content: space-between;
@@ -159,12 +175,12 @@
         gap: 120px;
     }
 
-    .imgCarros img{
+    .imgCarros img {
         width: 100%;
         margin-bottom: 30px;
     }
 
-    .carro{
+    .carro {
         width: 100%;
         text-align: left;
         padding: 15px;
@@ -173,112 +189,129 @@
         transition: box-shadow 0.3s ease;
     }
 
-    .carro:hover{
+    .carro:hover {
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     }
-    
-    #seres3 img{
+
+    #seres3 img {
         width: 90%;
     }
 
     /* Servicos */
-    #section-hero{
+    #section-hero {
         margin-top: 120px;
     }
 
-    .servicos{
+    .servicos {
         margin-left: 200px;
         margin-right: 200px;
     }
 
-    .beneficiosServicos{
+    .beneficiosServicos {
         margin-top: 0;
     }
-    
-    .diferencial-item{
+
+    .diferencial-item {
         margin-top: 20px;
     }
 
-    .servicos h1{
+    .servicos h1 {
         font-size: 38px;
     }
 
-    .servicos h2{
+    .servicos h2 {
         font-size: 30px;
     }
 
-    .servicos h3{
+    .servicos h3 {
         font-size: 24px;
     }
 
-    .servicos p{
+    .servicos p {
         font-size: 20px;
     }
 
     /* Footer */
-    footer{
+    footer {
         padding: 15px 0;
     }
 
-    #integrantePage, #mensagemEnviada{
+    #integrantePage,
+    #mensagemEnviada {
         position: fixed;
     }
 }
 
-@media (min-width: 1200px) and (max-width: 1399px){
-    header{
+@media (min-width: 1200px) and (max-width: 1399px) {
+    header {
         padding: 15px 2%;
     }
 
-    a .btnFaleConosco{
+    a .btnFaleConosco {
         padding: 8px 25px;
     }
 
-    #wrapper{
+    #wrapper {
         margin-top: 80px;
         margin-left: 130px;
         margin-right: 130px;
     }
 
-    h1{
+    h1 {
         font-size: 48px;
         line-height: 58px;
     }
 
-    h2{
+    h2 {
         font-size: 34px;
         line-height: 46px;
     }
 
-    h4{
+    h4 {
         font-size: 42px;
     }
 
-    p{
+    p {
         font-size: 20px;
         line-height: 26px;
     }
 
+    /* Header */
+    .imagensHeader {
+        display: flex;
+        gap: 30px;
+    }
+
+    .imgLogo img {
+        margin-top: 5px;
+        width: 150px;
+    }
+
+    .imgLogo {
+        margin-right: 65%;
+    }
+
     /* Menu Hamburguer*/
-    .barra-opcoes{
+    .barra-opcoes {
         width: 30%;
         left: -30%;
     }
 
-    .menu-hamburguer{
+    .menu-hamburguer {
         margin-top: 8px;
     }
 
-    .menu-hamburguer img{
+    .menu-hamburguer img {
         width: 27px;
     }
 
     /* Homepage */
-    .imgCarro img, .imgCarroVerde img{
+    .imgCarro img,
+    .imgCarroVerde img {
         min-width: 480px;
     }
 
-    #section1{
+    #section1 {
         display: flex;
         text-align: center;
         justify-content: space-around;
@@ -286,64 +319,64 @@
         margin-bottom: 0;
     }
 
-    #txtInicial{
+    #txtInicial {
         margin-top: 35px;
     }
 
-    #section2{
+    #section2 {
         margin-top: 265px;
     }
 
-    #creditoCarbono{
+    #creditoCarbono {
         margin-top: 60px;
         display: flex;
         justify-content: space-around;
         gap: 50px;
     }
 
-    #txtCreditoCarbono{
+    #txtCreditoCarbono {
         margin-top: 50px;
     }
 
-    #beneficios{
+    #beneficios {
         display: flex;
         justify-content: space-around;
         gap: 45px;
     }
 
-    .beneficio{
+    .beneficio {
         width: 370px;
         margin-top: 49px;
     }
 
     /* Integrantes */
-    h5{
+    h5 {
         font-size: 40px;
     }
 
-    .integrantes{
+    .integrantes {
         display: flex;
         justify-content: space-between;
     }
 
-    .integrante{
+    .integrante {
         margin-top: 10px;
     }
 
     /* Carros */
-    .carros{
+    .carros {
         text-align: center;
         justify-content: space-between;
         display: flex;
         gap: 60px;
     }
 
-    .imgCarros img{
+    .imgCarros img {
         width: 100%;
         margin-bottom: 60px;
     }
 
-    .carro{
+    .carro {
         width: 100%;
         text-align: left;
         padding: 15px;
@@ -352,50 +385,51 @@
         transition: box-shadow 0.3s ease;
     }
 
-    .carro:hover{
+    .carro:hover {
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     }
 
-    #seres3 img{
+    #seres3 img {
         width: 90%;
     }
 
     /* Servicos */
-    #section-hero{
+    #section-hero {
         margin-top: 120px;
     }
 
-    .servicos{
+    .servicos {
         margin-left: 150px;
         margin-right: 150px;
     }
 
-    .beneficiosServicos{
+    .beneficiosServicos {
         margin-top: 0;
     }
-    
-    .diferencial-item{
+
+    .diferencial-item {
         margin-top: 20px;
     }
 
-    .servicos h1{
+    .servicos h1 {
         font-size: 34px;
     }
 
-    .servicos h3{
+    .servicos h3 {
         font-size: 20px;
     }
 
-    .servicos p{
+    .servicos p {
         font-size: 17px;
     }
 
     /* Footer */
-    footer{
+    footer {
         padding: 15px 0;
     }
 
-    #integrantePage, #mensagemEnviada{
+    #integrantePage,
+    #mensagemEnviada {
         position: fixed;
     }
-}   
+}
